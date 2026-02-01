@@ -28,20 +28,20 @@ Install them via your package manager (e.g., `apt install curl jq`) or follow th
 
 1. Clone the repository:
 
-`git clone https://github.com/9mmPterodactyl/My-Tools.git`
+`git clone https://github.com/9mmPterodactyl/My-Tools/Bash-Recon.git`
  
-`cd My-Tools/Bash-Recon `
+`cd Bash-Recon`
 
 2. Make the script executable:
 
-`chmod +x bash-recon.sh`
+`chmod +x sub-enum.sh`
 
 
 3. Ensure dependencies are installed and in your PATH.
 
 ## Usage
 
-`./bash-recon.sh -u <domain> | -l <domain_list> [-o <output_dir>] [-t <threads>]`
+`./sub-enum.sh -u <domain> | -l <domain_list> [-o <output_dir>] [-t <threads>]`
 
 ### Options
 
@@ -56,11 +56,11 @@ Note: You cannot use `-u` and `-l` together.
 
 - Single domain:
 
-`./bash-recon.sh -u example.com`
+`./sub-enum.sh -u example.com`
 
 - Domain list:
 
-`./bash-recon.sh -l domains.txt -o my_results -t 100`
+`./sub-enum.sh -l domains.txt -o my_results -t 100`
 
 ## Output
 
@@ -73,4 +73,4 @@ Results are saved in the specified output directory:
 
 Console output includes a summary of targets scanned, unique subdomains, and live hosts.
 
-
+Hit my CashApp $guitarisaiah if you want to buy me a coffee for survival.
