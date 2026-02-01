@@ -1,2 +1,2 @@
 # My-Tools
-My bash and python scripts that make life easier
+My bash scripts that make life easier
